@@ -15,6 +15,10 @@
   5. Clients with lower monthly charges tend to churn less than clients with a higher monhtly charge?
   6. Is there a difference between gender churning rate? Does having streaming services affects the churning rate?
 # Data dictionary:
+https://github.com/Chellyann-moreno/classifications-project/blob/98ee7df94144ca83ee074de4b9c4c9e386f63132/Data%20Dictionary.png
+
+- For information please visit: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
 # Project planning, layout of science pipeline:
   1. Project Planning- During this process we asked ourselves important questions about the project. Data planning will be shown in this readme.
   2. Data acquisition- We would be acquiring the data from Codeup Data Server in MYSQL. Raw data would be downloaded and "telco.csv" has been created which would be use to pull the data during this project.
