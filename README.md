@@ -27,9 +27,9 @@
   5. Data modeling- We would be using the most important features(6 to 7) to check the accuracy and recall scores. By looking on how to prevent customers from churning we would be using our true positive(TP) conditions, focusing on our recall rate.
   6. Data Delivery- We would be using a jupyter notebook were we would be showing our visualizations, questions and findings. We would also show the  score moetrics of our best model. This project would be a written and a verbal presentation. 
  # Instructions on how to reproduce this project:
-  For a user to be able to reproduce this project they must have a connection to the CodeUP Server in MySQL. The user must have a "env.py" with the username, password, and database name, to establish the connection.
-  Also, the acquire.py, explore.py and prepare.py must be downloaded in the folder as the final_report, to be able to run it successfully.
-  Once all files are downloaded, user may run the final report notebook.
+  For a user to be able to reproduce this project they must have a connection to the CodeUp Server in MySQL. The user must have a "env.py" with the username, password, and database name, to establish the connection.
+  Also, the acquire.py, explore.py and prepare.py must be downloaded in the same repository/folder as the final_report, to be able to run it successfully.
+  Once all files are downloaded, user may run the final_report notebook.
  # Key findings, recommendations and takeaways:
    - About 26.5% of the customers have churned the company.
    - Customers with access to tech support tend to stay at the company.
