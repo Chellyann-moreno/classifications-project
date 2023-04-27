@@ -15,8 +15,8 @@
   5. Clients with lower monthly charges tend to churn less than clients with a higher monhtly charge?
   6. Is there a difference between gender churning rate? Does having streaming services affects the churning rate?
 # Data dictionary:
-https://github.com/Chellyann-moreno/classifications-project/blob/98ee7df94144ca83ee074de4b9c4c9e386f63132/Data%20Dictionary.png
-
+![Alt text](https://github.com/Chellyann-moreno/classifications-project/blob/98ee7df94144ca83ee074de4b9c4c9e386f63132/Data%20Dictionary.png
+)
 - For information please visit: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 # Project planning, layout of science pipeline:
