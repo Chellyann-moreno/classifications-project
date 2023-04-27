@@ -132,6 +132,63 @@ def create_pie_chart(df, column_name,title):
     plt.axis('equal')
     plt.title(title)
     plt.show()
+
+# KNN CHART
+
+
+def plot_knn_test_performance(knn_model, x_test, y_test, plot_type='bar'):
+    "Make predictions on the test data"
+    y_pred = knn_model.predict(x_test)
+
+    "Create a plot of the predicted versus actual values"
+    if plot_type == 'bar':
+        unique_y_test = np.unique(y_test)
+        count_y_test = [np.sum(y_test == u) for u in unique_y_test]
+        count_y_pred = [np.sum(y_pred == u) for u in unique_y_test]
+        plt.bar(unique_y_test, count_y_test, color='blue', alpha=0.5, label='Actual')
+        plt.bar(unique_y_test, count_y_pred, color='red', alpha=0.5, label='Predicted')
+        'Set the x-axis and y-axis labels'
+        plt.xlabel('Class')
+        plt.ylabel('Count')
+        ' Set the plot title'
+        plt.title('KNN Test Performance')
+        'Add legend'
+        plt.legend()
+    elif plot_type == 'pie':
+        unique_y_test, count_y_test = np.unique(y_test, return_counts=True)
+        count_y_pred = [np.sum(y_pred == u) for u in unique_y_test]
+        pastel_colors = plt.cm.Set3(np.linspace(0, 0.5, len(unique_y_test)))
+        plt.pie(count_y_test, labels=unique_y_test, colors=pastel_colors, 
+                autopct='%1.1f%%', startangle=90, counterclock=False, labeldistance=1.05, wedgeprops=dict(width=0.5))
+        plt.pie(count_y_pred, colors=pastel_colors, 
+                autopct='%1.1f%%', startangle=90, counterclock=False, labeldistance=0.8, wedgeprops=dict(width=0.3, edgecolor='w'))
+        ' Set the plot title'
+        plt.title('KNN Test Performance\nActual vs Predicted', y=0.8)
+    else:
+        raise ValueError('Invalid plot type specified. Please choose either "bar" or "pie".')
+
+    ' Show the plot'
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
