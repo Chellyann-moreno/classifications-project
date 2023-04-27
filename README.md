@@ -32,8 +32,11 @@
   Once all files are downloaded, user may run the final report notebook.
  # Key findings, recommendations and takeaways:
    - About 26.5% of the customers have churned the company.
-   - 
-   - 
+   - Customers with access to tech support tend to stay at the company.
+   - Customers with dependents and/or add-ons have a lower chance of churning.
+   - Senior citizens tend to churn more, however the senior citizen population is low.
+   - Customers with a month to month contract tend to churn at a higher rate than those with a one or two year contract.
+   - Based on our observations, we recomment using the machine model to identify customers who are have a high probablity of churning and   offer them tech support services, discounts and free add-ons to keep them from churning.
  
     
    
