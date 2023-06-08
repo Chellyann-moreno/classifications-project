@@ -7,7 +7,7 @@
     Some of these factors are: monthly charges, contract type, age, tech support access, etc.
     Focusing on these factors would help us come up with ideas on how to keep our current clients from churning,
     and how the company could improve and reduce the rate of churning customers. 
-# Initial hypotheses and questions about thee data:
+# Initial hypotheses and questions about the data:
   1. Does clients with a contract churn less than clients that pay month to month?
   2. Clients with dependent tend to churn less than clients with no dependents?
   3. Does senior clients churn less than client who are not seniors?
